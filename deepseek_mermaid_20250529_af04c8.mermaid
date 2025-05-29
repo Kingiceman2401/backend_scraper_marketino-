@@ -1,0 +1,22 @@
+graph TD
+    A[Discounter Websites] --> B[Scraping Coordinator]
+    B --> C1[Slowenien]
+    B --> C2[Kroatien]
+    B --> C3[Bosnien]
+    B --> C4[Serbien]
+    B --> C5[Montenegro]
+    B --> C6[Nordmazedonien]
+    C1 --> D[Mercator, Spar, Hofer...]
+    C2 --> E[Konzum, Lidl, Plodine...]
+    C3 --> F[Bingo, Mercator, Superkonzum...]
+    C4 --> G[Idea, Maxi, DIS...]
+    C5 --> H[Voli, Aroma, Franca...]
+    C6 --> I[Tinex, Vero, Ramstore...]
+    D --> J[Scraper Engine]
+    E --> J
+    F --> J
+    G --> J
+    H --> J
+    I --> J
+    J --> K[PostgreSQL DB]
+    K --> L[API auf Render.com]

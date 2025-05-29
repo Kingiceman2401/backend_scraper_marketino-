@@ -1,0 +1,17 @@
+balkan-discounter-scraper/
+├── scrapers/
+│   ├── slovenia.py
+│   ├── croatia.py
+│   ├── bosnia.py
+│   ├── serbia.py
+│   ├── montenegro.py
+│   └── macedonia.py
+├── services/
+│   ├── database.py
+│   ├── proxy_rotator.py
+│   └── utils.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+└── README.md
